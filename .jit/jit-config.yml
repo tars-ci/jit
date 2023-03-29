@@ -1,0 +1,6 @@
+applications:
+- application_name: Tets
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: http://testphp.vulnweb.com
+  type: web

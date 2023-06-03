@@ -5,3 +5,9 @@ applications:
   exclude_paths: []
   target_url: http://testphp.vulnweb.com
   type: web
+- api_domain: testphp.vulnweb.com
+  application_name: testphp.vulnweb.com
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: https://testphp.vulnweb.com/1.json
+  type: api
